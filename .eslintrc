@@ -1,0 +1,6 @@
+{
+  extends: "eslint-config-lob",
+  env: {
+    es6: true
+  }
+}
