@@ -1,0 +1,14 @@
+machine:
+  node:
+    version:
+      5.2
+
+general:
+  artifacts:
+    - ~/coverage.tar
+
+test:
+  post:
+    - npm run lint
+    - npm run enforce
+    - rm -rf $CIRCLE_ARTIFACTS/* && tar cvf ~/coverage.tar coverage
