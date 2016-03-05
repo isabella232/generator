@@ -1,8 +1,8 @@
 'use strict';
 
-let Assert = require('yeoman-assert');
-let Path   = require('path');
-let Yo     = require('yeoman-test');
+const Assert = require('yeoman-assert');
+const Path   = require('path');
+const Yo     = require('yeoman-test');
 
 describe('lob:eslint', () => {
 
