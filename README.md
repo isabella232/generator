@@ -21,6 +21,8 @@ To generate a portion of a repository, you may use a [sub-generator](#sub-genera
 
 **Lint** [`yo lob:lint`](#lint)
 
+**Release** [`yo lob:release`](#release)
+
 ### Lint
 
 ```
@@ -32,6 +34,15 @@ yo lob:lint
 - Creates an [`.eslintignore`](generators/eslint/templates/eslintignore) file that excludes the `coverage/` folder from linting
 - Adds a `lint` npm script to lint all javascript files in the project
 
+
+### Release
+
+```
+yo lob:release
+```
+
+- Installs [generate-changelog](https://github.com/lob/generate-changelog)
+- Adds npm scripts for `release:patch`, `release:minor`, and `release:major`
 
 ## Extension
 
