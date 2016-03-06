@@ -19,12 +19,12 @@ To generate a portion of a repository, you may use a [sub-generator](#sub-genera
 
 ## Sub-Generators
 
-**ESLint** [`yo lob:eslint`](#eslint)
+**Lint** [`yo lob:lint`](#lint)
 
-### ESLint
+### Lint
 
 ```
-yo lob:eslint
+yo lob:lint
 ```
 
 - Installs [`eslint`](https://www.npmjs.com/package/eslint) and [`eslint-config-lob`](https://www.npmjs.com/package/eslint-config-lob)
@@ -32,8 +32,6 @@ yo lob:eslint
 - Creates an [`.eslintignore`](generators/eslint/templates/eslintignore) file that excludes the `coverage/` folder from linting
 - Adds a `lint` npm script to lint all javascript files in the project
 
-Options:
-- `--generateInto` Provide a non-root location for the generated files
 
 ## Extension
 
