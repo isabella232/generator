@@ -21,6 +21,8 @@ To generate a portion of a repository, you may use a [sub-generator](#sub-genera
 
 **Lint** [`yo lob:lint`](#lint)
 
+**Node Version** [`yo lob:node-version`](#node-version)
+
 **Release** [`yo lob:release`](#release)
 
 ### Lint
@@ -34,6 +36,13 @@ yo lob:lint
 - Creates an [`.eslintignore`](generators/eslint/templates/eslintignore) file that excludes the `coverage/` folder from linting
 - Adds a `lint` npm script to lint all javascript files in the project
 
+### Node Version
+
+```
+yo lob:node-version
+```
+
+- Prompts for a node version and uses it in a `.node-version` file
 
 ### Release
 
