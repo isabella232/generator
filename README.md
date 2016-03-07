@@ -19,6 +19,8 @@ To generate a portion of a repository, you may use a [sub-generator](#sub-genera
 
 ## Sub-Generators
 
+**Continuous Integration** [`yo lob:ci`](#continuous-integration)
+
 **Lint** [`yo lob:lint`](#lint)
 
 **Node Version** [`yo lob:node-version`](#node-version)
@@ -26,6 +28,14 @@ To generate a portion of a repository, you may use a [sub-generator](#sub-genera
 **Release** [`yo lob:release`](#release)
 
 **Test** [`yo lob:test`](#test)
+
+### Continuous Integration
+
+```
+$ yo lob:ci
+```
+
+- Prompts for a CI platform (CircleCI or Travis) and Node version and composes a `.yml` file accordingly
 
 ### Lint
 

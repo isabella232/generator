@@ -8,8 +8,9 @@ module.exports = Generators.Base.extend({
 
     this.prompt({
       name: 'version',
-      message: 'Node version',
-      default: 5
+      message: 'Local Node version',
+      default: 5,
+      store: true
     }, function (prop) {
       this.version = prop.version;
       done();

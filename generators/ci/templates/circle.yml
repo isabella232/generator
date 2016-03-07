@@ -1,0 +1,21 @@
+machine:
+  node:
+    version: <%= version %>
+
+  environment:
+    NODE_ENV: 'test'
+
+general:
+  artifacts:
+    - "~/coverage.tar"
+
+dependencies:
+  pre:
+    - echo -e $npmrc > ~/.npmrc
+    - if ! npm -v | grep ^3.*; then npm install -g npm@3.3; fi
+
+test:
+  post:
+    - npm run lint
+    - npm run enforce
+    - rm -rf $CIRCLE_ARTIFACTS/* && tar cvf ~/coverage.tar coverage
