@@ -25,10 +25,12 @@ To generate a portion of a repository, you may use a [sub-generator](#sub-genera
 
 **Release** [`yo lob:release`](#release)
 
+**Test** [`yo lob:test`](#test)
+
 ### Lint
 
 ```
-yo lob:lint
+$ yo lob:lint
 ```
 
 - Installs [`eslint`](https://www.npmjs.com/package/eslint) and [`eslint-config-lob`](https://www.npmjs.com/package/eslint-config-lob)
@@ -39,7 +41,7 @@ yo lob:lint
 ### Node Version
 
 ```
-yo lob:node-version
+$ yo lob:node-version
 ```
 
 - Prompts for a node version and uses it in a `.node-version` file
@@ -47,11 +49,21 @@ yo lob:node-version
 ### Release
 
 ```
-yo lob:release
+$ yo lob:release
 ```
 
 - Installs [generate-changelog](https://github.com/lob/generate-changelog)
 - Adds npm scripts for `release:patch`, `release:minor`, and `release:major`
+
+### Test
+
+```
+$ yo lob:test
+```
+
+- Installs [chai](https://www.npmjs.com/package/chai), [istanbul](https://www.npmjs.com/package/istanbul), and [mocha](https://www.npmjs.com/package/mocha)
+- Creates [`test/setup.js` file](generators/test/templates/setup.js) that defines an `expect` global
+- Adds npm scripts for `enforce`, `test`, and `test-no-cover`
 
 ## Extension
 

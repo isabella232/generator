@@ -7,5 +7,6 @@ module.exports = Generators.Base.extend({
     this.composeWith('lob:lint');
     this.composeWith('lob:node-version');
     this.composeWith('lob:release');
+    this.composeWith('lob:test');
   }
 });
