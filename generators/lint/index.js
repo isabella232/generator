@@ -10,7 +10,7 @@ module.exports = Generators.Base.extend({
     Merge(packageJSON, {
       devDependencies: {
         eslint: '^1.9.0',
-        'eslint-config-lob': '^1.0.1'
+        'eslint-config-lob': '^2.0.0'
       },
       scripts: {
         lint: 'eslint .'
