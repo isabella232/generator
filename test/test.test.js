@@ -25,7 +25,7 @@ describe('lob:test', () => {
   it('creates enforce, test, and test-no-cover npm scripts', () => {
     Assert.fileContent('package.json', /"enforce": /);
     Assert.fileContent('package.json', /"test": /);
-    Assert.fileContent('package.json', /"test-no-cover": /);
+    Assert.fileContent('package.json', /"test:raw": /);
   });
 
 });

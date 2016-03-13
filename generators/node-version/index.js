@@ -11,10 +11,10 @@ module.exports = Generators.Base.extend({
       message: 'Local Node version',
       default: 5,
       store: true
-    }, function (prop) {
+    }, (prop) => {
       this.version = prop.version;
       done();
-    }.bind(this));
+    });
   },
   writing: function () {
     this.fs.write(this.destinationPath('.node-version'), this.version.toString());

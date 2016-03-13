@@ -16,7 +16,7 @@ module.exports = Generators.Base.extend({
       scripts: {
         enforce: 'istanbul check-coverage --statement 100 --branch 100 --function 100 --lines 100',
         test: 'istanbul cover _mocha -- test --require test/setup.js --recursive --timeout 30000',
-        'test-no-cover': 'mocha test --require test/setup.js --recursive --timeout 30000'
+        'test:raw': 'mocha test --require test/setup.js --recursive --timeout 30000'
       }
     });
 

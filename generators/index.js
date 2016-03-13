@@ -3,7 +3,7 @@
 const Generators = require('yeoman-generator');
 
 module.exports = Generators.Base.extend({
-  initializing : function () {
+  initializing: function () {
     this.composeWith('lob:ci');
     this.composeWith('lob:lint');
     this.composeWith('lob:node-version');
