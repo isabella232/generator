@@ -7,7 +7,7 @@ module.exports = Generators.Base.extend({
     this.props = {};
   },
   prompting: function () {
-    var done = this.async();
+    const done = this.async();
 
     this.prompt([{
       name: 'ci',
@@ -21,10 +21,10 @@ module.exports = Generators.Base.extend({
       message: 'Continuous Integration Node version',
       required: true,
       store: true
-    }], function (props) {
+    }], (props) => {
       this.props = props;
       done();
-    }.bind(this));
+    });
   },
   writing: function () {
     if (this.props.ci === 'CircleCI') {

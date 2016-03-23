@@ -5,7 +5,7 @@ const Merge      = require('lodash').merge;
 
 module.exports = Generators.Base.extend({
   writing: function () {
-    var packageJSON = this.fs.readJSON(this.destinationPath('package.json'), {});
+    let packageJSON = this.fs.readJSON(this.destinationPath('package.json'), {});
 
     Merge(packageJSON, {
       devDependencies: {

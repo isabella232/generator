@@ -7,7 +7,7 @@ machine:
 
 general:
   artifacts:
-    - "~/coverage.tar"
+    - ~/coverage.tar
 
 dependencies:
   pre:

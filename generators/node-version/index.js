@@ -4,7 +4,7 @@ const Generators = require('yeoman-generator');
 
 module.exports = Generators.Base.extend({
   prompting: function () {
-    var done = this.async();
+    const done = this.async();
 
     this.prompt({
       name: 'version',

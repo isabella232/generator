@@ -16,7 +16,7 @@ describe('lob:release', () => {
   });
 
   it('creates release scripts', () => {
-    var script = (type, abbreviation) => {
+    const script = (type, abbreviation) => {
       return `"release:${type}": "changelog -${abbreviation} && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version ${type} && git push origin && git push origin --tags"`
     };
 
