@@ -1,11 +1,18 @@
 machine:
   node:
-    version:
-      5.2
+    version: <%= version %>
+
+  environment:
+    NODE_ENV: 'test'
 
 general:
   artifacts:
     - ~/coverage.tar
+
+dependencies:
+  pre:
+    - echo -e $npmrc > ~/.npmrc
+    - if ! npm -v | grep ^3.*; then npm install -g npm@3.3; fi
 
 test:
   post:
