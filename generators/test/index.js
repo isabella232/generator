@@ -1,7 +1,7 @@
 'use strict';
 
 const Generators = require('yeoman-generator');
-const Merge      = require('lodash').merge;
+const Merge      = require('lodash.merge');
 
 module.exports = Generators.Base.extend({
   writing: function () {
