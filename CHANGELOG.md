@@ -1,3 +1,9 @@
+#### 1.0.1 (2016-3-29)
+
+##### Bug Fixes
+
+* **lint:** allow global expect ([3ac9712a](https://github.com/lob/generator/commit/3ac9712a8f9d9f0d061d55a4c69f94b476002c9c))
+
 ## 1.0.0 (2016-3-23)
 
 ##### Chores
