@@ -19,6 +19,8 @@ To generate a portion of a repository, you may use a [sub-generator](#sub-genera
 
 ## Sub-Generators
 
+**Config** [`yo lob:config`](#config)
+
 **Continuous Integration** [`yo lob:ci`](#continuous-integration)
 
 **Lint** [`yo lob:lint`](#lint)
@@ -28,6 +30,15 @@ To generate a portion of a repository, you may use a [sub-generator](#sub-genera
 **Release** [`yo lob:release`](#release)
 
 **Test** [`yo lob:test`](#test)
+
+### Config
+
+```
+$ yo lob:config
+```
+
+- Prompts for whether to generate a `config` directory
+- Generates a `config/index.js` file that reads an object of config variables from one of `config/developments.js`, `config/production.js`, `config/staging.js`, or `config/test.js` based on the `NODE_ENV`. Initializes each environment's config file to export an empty object.
 
 ### Continuous Integration
 
