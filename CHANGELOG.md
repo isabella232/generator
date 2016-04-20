@@ -1,3 +1,9 @@
+### 1.1.0 (2016-4-20)
+
+##### New Features
+
+* **config:** creates a lob:config sub-generator ([b0c2a299](https://github.com/lob/generator/commit/b0c2a29991a50b452c0299ccc036717f4cd429b8))
+
 #### 1.0.1 (2016-3-29)
 
 ##### Bug Fixes
