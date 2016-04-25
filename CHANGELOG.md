@@ -1,3 +1,9 @@
+#### 1.1.1 (2016-4-25)
+
+##### Bug Fixes
+
+* **test:** send NODE_ENV to 'test' in test scripts ([471e0085](https://github.com/lob/generator/commit/471e0085ac557ba60415227ff68e641f40944adb))
+
 ### 1.1.0 (2016-4-20)
 
 ##### New Features
