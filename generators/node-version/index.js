@@ -17,6 +17,6 @@ module.exports = Generators.Base.extend({
     });
   },
   writing: function () {
-    this.fs.write(this.destinationPath('.node-version'), this.version.toString());
+    this.fs.write(this.destinationPath('.node-version'), `${this.version.toString()}\n`);
   }
 });
