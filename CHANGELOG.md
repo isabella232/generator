@@ -1,3 +1,9 @@
+#### 1.1.2 (2016-6-1)
+
+##### Bug Fixes
+
+* **node-version:** Add trailing newline to generated .node-version file. ([23b3e66e](https://github.com/lob/generator/commit/23b3e66e7022fae5c43cab5d26a7f9a44bd4d943))
+
 #### 1.1.1 (2016-4-25)
 
 ##### Bug Fixes
