@@ -17,6 +17,10 @@ module.exports = Generators.Base.extend({
     });
   },
   writing: function () {
-    this.fs.write(this.destinationPath('.node-version'), `${this.version.toString()}\n`);
+    this.fs.copyTpl(
+      this.templatePath('node-version'),
+      this.destinationPath('.node-version'),
+      { version: this.version }
+    );
   }
 });
