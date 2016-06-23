@@ -1,3 +1,14 @@
+#### 1.1.3 (2016-6-22)
+
+##### New Features
+
+* **release:** remove npm 3 install from circle config ([8c35cd1f](https://github.com/lob/generator/commit/8c35cd1f104e624673e4a60a2f8c8b5529ebd67b))
+
+##### Bug Fixes
+
+* **node-version:** use template to ensure newline character at EOF ([e1b5d459](https://github.com/lob/generator/commit/e1b5d459c15ade7987cbeb9764ced5621372341a))
+* **ci:** set NODE_ENV to test in travis.yml ([9514738d](https://github.com/lob/generator/commit/9514738d8481d12825551c69f1882693bd76a02d))
+
 #### 1.1.2 (2016-6-1)
 
 ##### Bug Fixes
