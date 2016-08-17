@@ -484,7 +484,7 @@
         "esutils": {
           "version": "1.1.6",
           "from": "esutils@>=1.1.6 <2.0.0",
-          "resolved": "http://registry.nodejitsu.com/esutils/-/esutils-1.1.6.tgz"
+          "resolved": "https://registry.npmjs.org/esutils/-/esutils-1.1.6.tgz"
         },
         "isarray": {
           "version": "0.0.1",
@@ -545,14 +545,14 @@
         "end-of-stream": {
           "version": "1.0.0",
           "from": "end-of-stream@1.0.0",
-          "resolved": "http://registry.nodejitsu.com/end-of-stream/-/end-of-stream-1.0.0.tgz"
+          "resolved": "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.0.0.tgz"
         }
       }
     },
     "each-async": {
       "version": "1.1.1",
       "from": "each-async@>=1.0.0 <2.0.0",
-      "resolved": "http://registry.nodejitsu.com/each-async/-/each-async-1.1.1.tgz"
+      "resolved": "https://registry.npmjs.org/each-async/-/each-async-1.1.1.tgz"
     },
     "ejs": {
       "version": "2.4.1",
@@ -562,7 +562,7 @@
     "end-of-stream": {
       "version": "1.1.0",
       "from": "end-of-stream@>=1.0.0 <2.0.0",
-      "resolved": "http://registry.nodejitsu.com/end-of-stream/-/end-of-stream-1.1.0.tgz"
+      "resolved": "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.1.0.tgz"
     },
     "entities": {
       "version": "1.1.1",
@@ -763,7 +763,7 @@
     "expand-range": {
       "version": "1.8.1",
       "from": "expand-range@>=1.8.1 <2.0.0",
-      "resolved": "http://registry.nodejitsu.com/expand-range/-/expand-range-1.8.1.tgz"
+      "resolved": "https://registry.npmjs.org/expand-range/-/expand-range-1.8.1.tgz"
     },
     "extend": {
       "version": "3.0.0",
@@ -820,7 +820,7 @@
     "filename-regex": {
       "version": "2.0.0",
       "from": "filename-regex@>=2.0.0 <3.0.0",
-      "resolved": "http://registry.nodejitsu.com/filename-regex/-/filename-regex-2.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/filename-regex/-/filename-regex-2.0.0.tgz"
     },
     "filename-reserved-regex": {
       "version": "1.0.0",
@@ -872,17 +872,17 @@
     "for-in": {
       "version": "0.1.4",
       "from": "for-in@>=0.1.4 <0.2.0",
-      "resolved": "http://registry.nodejitsu.com/for-in/-/for-in-0.1.4.tgz"
+      "resolved": "https://registry.npmjs.org/for-in/-/for-in-0.1.4.tgz"
     },
     "for-own": {
       "version": "0.1.3",
       "from": "for-own@>=0.1.3 <0.2.0",
-      "resolved": "http://registry.nodejitsu.com/for-own/-/for-own-0.1.3.tgz"
+      "resolved": "https://registry.npmjs.org/for-own/-/for-own-0.1.3.tgz"
     },
     "formatio": {
       "version": "1.1.1",
       "from": "formatio@1.1.1",
-      "resolved": "http://registry.nodejitsu.com/formatio/-/formatio-1.1.1.tgz"
+      "resolved": "https://registry.npmjs.org/formatio/-/formatio-1.1.1.tgz"
     },
     "generate-changelog": {
       "version": "1.0.1",
@@ -1215,7 +1215,7 @@
     "is-extglob": {
       "version": "1.0.0",
       "from": "is-extglob@>=1.0.0 <2.0.0",
-      "resolved": "http://registry.nodejitsu.com/is-extglob/-/is-extglob-1.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/is-extglob/-/is-extglob-1.0.0.tgz"
     },
     "is-finite": {
       "version": "1.0.1",
@@ -1280,7 +1280,7 @@
     "is-primitive": {
       "version": "2.0.0",
       "from": "is-primitive@>=2.0.0 <3.0.0",
-      "resolved": "http://registry.nodejitsu.com/is-primitive/-/is-primitive-2.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/is-primitive/-/is-primitive-2.0.0.tgz"
     },
     "is-promise": {
       "version": "2.1.0",
@@ -1315,7 +1315,7 @@
     "is-stream": {
       "version": "1.0.1",
       "from": "is-stream@>=1.0.0 <2.0.0",
-      "resolved": "http://registry.nodejitsu.com/is-stream/-/is-stream-1.0.1.tgz"
+      "resolved": "https://registry.npmjs.org/is-stream/-/is-stream-1.0.1.tgz"
     },
     "is-tar": {
       "version": "1.0.0",
@@ -1804,7 +1804,7 @@
     "lowercase-keys": {
       "version": "1.0.0",
       "from": "lowercase-keys@>=1.0.0 <2.0.0",
-      "resolved": "http://registry.nodejitsu.com/lowercase-keys/-/lowercase-keys-1.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-1.0.0.tgz"
     },
     "lru-cache": {
       "version": "4.0.1",
@@ -2111,7 +2111,7 @@
     "preserve": {
       "version": "0.2.0",
       "from": "preserve@>=0.2.0 <0.3.0",
-      "resolved": "http://registry.nodejitsu.com/preserve/-/preserve-0.2.0.tgz"
+      "resolved": "https://registry.npmjs.org/preserve/-/preserve-0.2.0.tgz"
     },
     "pretty-bytes": {
       "version": "2.0.1",
@@ -2188,12 +2188,12 @@
     "regex-cache": {
       "version": "0.4.2",
       "from": "regex-cache@>=0.4.2 <0.5.0",
-      "resolved": "http://registry.nodejitsu.com/regex-cache/-/regex-cache-0.4.2.tgz"
+      "resolved": "https://registry.npmjs.org/regex-cache/-/regex-cache-0.4.2.tgz"
     },
     "repeat-element": {
       "version": "1.1.2",
       "from": "repeat-element@>=1.1.2 <2.0.0",
-      "resolved": "http://registry.nodejitsu.com/repeat-element/-/repeat-element-1.1.2.tgz"
+      "resolved": "https://registry.npmjs.org/repeat-element/-/repeat-element-1.1.2.tgz"
     },
     "repeat-string": {
       "version": "1.5.4",
@@ -2250,7 +2250,7 @@
     "samsam": {
       "version": "1.1.2",
       "from": "samsam@1.1.2",
-      "resolved": "http://registry.nodejitsu.com/samsam/-/samsam-1.1.2.tgz"
+      "resolved": "https://registry.npmjs.org/samsam/-/samsam-1.1.2.tgz"
     },
     "seek-bzip": {
       "version": "1.0.5",
@@ -2265,7 +2265,7 @@
     "set-immediate-shim": {
       "version": "1.0.1",
       "from": "set-immediate-shim@>=1.0.0 <2.0.0",
-      "resolved": "http://registry.nodejitsu.com/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz"
+      "resolved": "https://registry.npmjs.org/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz"
     },
     "shelljs": {
       "version": "0.5.3",
@@ -2435,7 +2435,7 @@
     "timed-out": {
       "version": "2.0.0",
       "from": "timed-out@>=2.0.0 <3.0.0",
-      "resolved": "http://registry.nodejitsu.com/timed-out/-/timed-out-2.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/timed-out/-/timed-out-2.0.0.tgz"
     },
     "to-absolute-glob": {
       "version": "0.1.1",
