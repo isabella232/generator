@@ -17,7 +17,7 @@ describe('lob:release', () => {
 
   it('creates release scripts', () => {
     const script = (type, abbreviation) => {
-      return `"release:${type}": "changelog -${abbreviation} && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version ${type} && git push origin && git push origin --tags"`
+      return `"release:${type}": "changelog -${abbreviation} && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --new-version ${type} && git push origin && git push origin --tags"`
     };
 
     Assert.fileContent('package.json', script('patch', 'p'));

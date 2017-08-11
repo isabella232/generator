@@ -5,7 +5,7 @@ Lob's [Yeoman](http://yeoman.io/) generator for creating Node modules.
 ## Installation
 
 ```
-$ npm install --global generator-lob
+$ yarn install --global generator-lob
 ```
 
 ## Usage
@@ -57,7 +57,7 @@ $ yo lob:lint
 - Installs [`eslint`](https://www.npmjs.com/package/eslint) and [`eslint-config-lob`](https://www.npmjs.com/package/eslint-config-lob)
 - Creates an [`.eslintrc`](generators/eslint/templates/eslintrc) file that [configures the linter](http://eslint.org/docs/user-guide/configuring) to use `eslint-config-lob`'s default rules
 - Creates an [`.eslintignore`](generators/eslint/templates/eslintignore) file that excludes the `coverage/` folder from linting
-- Adds a `lint` npm script to lint all javascript files in the project
+- Adds a `lint` yarn script to lint all javascript files in the project
 
 ### Node Version
 
@@ -74,7 +74,7 @@ $ yo lob:release
 ```
 
 - Installs [generate-changelog](https://github.com/lob/generate-changelog)
-- Adds npm scripts for `release:patch`, `release:minor`, and `release:major`
+- Adds yarn scripts for `release:patch`, `release:minor`, and `release:major`
 
 ### Test
 
@@ -84,7 +84,7 @@ $ yo lob:test
 
 - Installs [chai](https://www.npmjs.com/package/chai), [istanbul](https://www.npmjs.com/package/istanbul), and [mocha](https://www.npmjs.com/package/mocha)
 - Creates [`test/setup.js` file](generators/test/templates/setup.js) that defines an `expect` global
-- Adds npm scripts for `enforce`, `test`, and `test-no-cover`
+- Adds yarn scripts for `enforce`, `test`, and `test-no-cover`
 
 ## Extension
 

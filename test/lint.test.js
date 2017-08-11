@@ -24,7 +24,7 @@ describe('lob:lint', () => {
     Assert.fileContent('package.json', /"eslint-config-lob":/);
   });
 
-  it('creates lint npm script', () => {
+  it('creates lint yarn script', () => {
     Assert.fileContent('package.json', '"lint": "eslint ."');
   });
 
