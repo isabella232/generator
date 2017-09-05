@@ -12,9 +12,9 @@ module.exports = Generators.Base.extend({
         'generate-changelog': '^1.0.0'
       },
       scripts: {
-        'release:patch': 'changelog -p && git add CHANGELOG.md && git commit -m \'updated CHANGELOG.md\' && npm version patch && git push origin && git push origin --tags',
-        'release:minor': 'changelog -m && git add CHANGELOG.md && git commit -m \'updated CHANGELOG.md\' && npm version minor && git push origin && git push origin --tags',
-        'release:major': 'changelog -M && git add CHANGELOG.md && git commit -m \'updated CHANGELOG.md\' && npm version major && git push origin && git push origin --tags'
+        'release:patch': 'changelog -p && git add CHANGELOG.md && git commit -m \'updated CHANGELOG.md\' && yarn version --new-version patch && git push origin && git push origin --tags',
+        'release:minor': 'changelog -m && git add CHANGELOG.md && git commit -m \'updated CHANGELOG.md\' && yarn version --new-version minor && git push origin && git push origin --tags',
+        'release:major': 'changelog -M && git add CHANGELOG.md && git commit -m \'updated CHANGELOG.md\' && yarn version --new-version major && git push origin && git push origin --tags'
       }
     });
 

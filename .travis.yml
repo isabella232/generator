@@ -3,6 +3,6 @@ sudo: false
 node_js:
   - '6.11.1'
 script:
-  - npm test
-  - npm run enforce
-  - npm run lint
+  - yarn test
+  - yarn enforce
+  - yarn lint
