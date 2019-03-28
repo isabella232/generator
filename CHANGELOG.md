@@ -1,3 +1,14 @@
+## 2.0.0 (2019-03-28)
+
+##### Chores
+
+* **yarn:**  convert npm to yarn ([2042f14a](https://github.com/lob/generator/commit/2042f14a0d6b5d5933bb84eb932e55670c3084c4))
+* **dependencies:**  remove nodejitsu from npm-shrinkwrap JIRA: ENG-759 ([f8b33151](https://github.com/lob/generator/commit/f8b331514f9a6d22263693f3e8fb599545d5d048))
+
+##### Bug Fixes
+
+* **node:**  bump to safe node version ([04480ae2](https://github.com/lob/generator/commit/04480ae226b6ad1605fa4ede82383f47aa244566))
+
 #### 1.1.3 (2016-6-22)
 
 ##### New Features
